@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.search {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.search p {
+	margin: 0;
+}
+
+.search input {
+	height: 21px;
+}
+
+li button {
+	margin-left: 10px;
+}
+
+.success {
+	border: 3px solid green;
+	border-radius: 5px;
+	background-color: #cacaca;
+	font-size: 25px;
+	padding: 15px;
+	color: green;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.error {
+	border: 3px solid red;
+	border-radius: 5px;
+	background-color: #cacaca;
+	font-size: 25px;
+	padding: 15px;
+	color: red;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
